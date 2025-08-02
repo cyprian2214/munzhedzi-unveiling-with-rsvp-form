@@ -7,7 +7,7 @@ const Index = () => {
       {/* RSVP FORM */}
       <section className="mt-10 p-6 bg-white rounded-lg shadow-md max-w-xl mx-auto">
         <h2 className="text-2xl font-semibold mb-4 text-center">RSVP Form</h2>
-        <form name="rsvp" data-netlify="true" className="space-y-4" netlify>
+        <form name="rsvp" data-netlify="true" className="space-y-4" action="/success" netlify>
           <input type="hidden" name="form-name" value="rsvp" />
           <div>
             <label className="block text-sm font-medium text-gray-700">Full Name</label>
