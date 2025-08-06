@@ -43,8 +43,16 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    --gradient-memorial: linear-gradient(135deg, hsl(var(--memorial-light)), hsl(var(--background)));
-    --gradient-elegant: linear-gradient(180deg, hsl(var(--background)), hsl(var(--memorial-light)));
+    --gradient-memorial: linear-gradient(
+      135deg,
+      hsl(var(--memorial-light)),
+      hsl(var(--background))
+    );
+    --gradient-elegant: linear-gradient(
+      180deg,
+      hsl(var(--background)),
+      hsl(var(--memorial-light))
+    );
     --shadow-memorial: 0 8px 32px -8px hsl(var(--memorial) / 0.2);
     --shadow-soft: 0 4px 16px -4px hsl(var(--memorial) / 0.1);
 
